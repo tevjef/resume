@@ -4,16 +4,18 @@ latex-moderncv is a repository containing my resume compiled in latex using a ve
 Prerequisites
 =============
 
-You will need to have latex installed on your system. 
-### Cross Platform (OSX, Windows, Linux)
+You will need to have latex installed on your system to compile the .tex file and to produce a pdf output.
+
+#### Cross Platform (OSX, Windows, Linux)
 * [Texmaker	The universal LaTeX editor](http://www.xm1math.net/texmaker/download.html)
-### Mac OSX 
+
+####  Mac OSX 
 * [MacTex](http://tug.org/mactex/)
 
 Installation
 ============
 
-Install Latex and download the moderncv theme. Place the moderncv theme somewhere Latex can find it. You can just place the folder in the same place as your .tex file as I have::
+Install Latex and download the moderncv theme. Place the moderncv theme somewhere Latex can find it. You can just place the folder in the same place as your .tex file as I have:
 
     /my-resume
         my-resume.tex
