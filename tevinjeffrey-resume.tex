@@ -1,13 +1,22 @@
-\documentclass[11pt,letterpaper]{moderncv}
-\moderncvtheme{banking}
-\moderncvcolor{black}
 
-\usepackage[margin=.4in]{geometry}
+\documentclass[11pt,a4paper,sans]{moderncv}
+
+\usepackage{verbatim}
+
+% moderncv themes
+\moderncvstyle{classic}
+\moderncvcolor{green}
+
+% character encoding
+\usepackage[utf8]{inputenc}                   % replace by the encoding you are using
+
+\usepackage[margin=.6in]{geometry}
 
 \name{Tevin}{Jeffrey}
-\phone[fixed]{(347)-320-4109}
+\address{(omitted for web)}{(omitted for web)}
+\phone[fixed]{(omitted for web)}
 \email{tev.jeffrey@gmail.com} 
-\social[github]{\string{github.com/}tevjef}
+\social[github]{tevjef}
 \homepage{tevinjeffrey.com}
 
 
@@ -16,47 +25,49 @@
 \maketitle
 
 \section{Education}
-\cventry{2012-Present}{Major: Computer Science}{Rutgers, The State University of New Jersey}{Newark, NJ}{Minor: Mathematics}{GPA: 3.5}
+\cventry{2012-Present}{BS, Computer Science}{Rutgers, The State University of New Jersey}{Newark, NJ}{Minor: Mathematics}{GPA: 3.5}
 
 \section{Skills}
-\cvline{Skilled and proficient in }{Android, Java, Go, SQL}
-\cvline{Familiar with }{HTML, CSS, JavaScript, C++, Kotlin, Shell}
-\cvline{Environments and Version Control}{Windows, OSX, Linux, Android, Git}
-\cvline{Software/Tools}{SQLite, PosgreSQL, Android Studio, IntelliJ IDEA, Eclipse Memory Analyzer, Sublime Text, Eclipse, Adobe Photoshop, Illustrator, Flash and Premiere Pro, Final Cut Pro}
+\subsection{Proficient With}
+\cvline{languages}{Java, Go, SQL, Kotlin, Groovy, Shell}
+\cvline{technologies}{Android, Bash Scripting, SQLite, PosgreSQL, IntelliJ IDEA, Eclipse and MAT, Adobe Photoshop, Illustrator, Flash and Premiere Pro, Windows, OSX, Ubuntu, Git, Vim}
+\subsection{Have Experience With}
+\cvline{languages}{C, C++, HTML, CSS, JavaScript, Python, Swift}
+\cvline{technologies}{iOS, Final Cut Pro}
 
 \section{Side Projects}
-\cventry{February 2015}{Android SDK, Dagger 1, Espresso, RxJava, JUnit, Mockito}{Rutgers Course Tracker}{\href{http://git.io/vvhsv}{git.io/vvhsv}}{}
-{
-\begin{itemize} \itemsep3pt \parskip0pt \parsep0pt
+\cventry{February 2015 }{Rutgers Course Tracker (\href{http://git.io/vvhsv}{git.io/vvhsv})}{\newline Android SDK, Dagger 1, Espresso, RxJava, JUnit, Mockito}{}{}
+{\begin{itemize} \itemsep3pt \parskip0pt \parsep0pt
   \item An Android application to view Rutgers courses and subscribe to their openings.
-  \item Created with Android Studio with an emphasis on design and utilizing the latest Android APIs and technologies.
-  \item Built on a MVP architectural pattern and makes thoughtful use of popular libraries 
-like \textbf{RxJava},  \textbf{Dagger} and \textbf{Retrofit}.
+  \item Created with Android Studio with an emphasis on design and utilizing the latest APIs and technologies.
+  \item Built on a MVP architectural pattern and makes thoughtful use of \textbf{RxJava},  \textbf{Dagger} and \textbf{Retrofit}.
 \item Mocked dependencies with \textbf{Mockito} and utilized Dagger for dependency injection to create comprehensive JUnit and Espresso tests.
   \item Published on Google Play: \url{http://goo.gl/Kft1MY}
 \end{itemize}}
-\cventry{August 2014 - present}{Android SDK, Retrofit 2, Kotlin, Dagger 2, RxJava}{Vapor for CloudApp}{\href{http://git.io/vnnTA}{git.io/vnnTA}}{}{
+
+
+\cventry{2014 -- present}{Vapor for CloudApp (\href{http://git.io/vnnTA}{git.io/vnnTA})}{\newline Android SDK, Retrofit 2, Kotlin, Dagger 2, RxJava}{}{}{
 \begin{itemize}
   \item An Android application to upload and view files to CloudApp's Amazon S3 with an emphasis on making \\files easier to share.
-  \item Rewritten to implement the lessons learned from developing Rutgers Course Tracker while adhering to the material design spec and the supporting libraries. 
+  \item Rewritten to implement the lessons learned from developing Rutgers Course Tracker while adhering to the material design spec and to utilize bleeding edge technologies.
 \end{itemize}}
 
 
 \section{Experience}
-\cventry{April 2010 - June 2012}{Web Developer}{High School for Medical Professions (HSMP)}{Brooklyn, New York}{}{
+\cventry{2010 -- 2012}{Web Developer}{High School for Medical Professions (HSMP)}{Brooklyn, New York}{}{
 \begin{itemize} \itemsep3pt \parskip0pt \parsep0pt
   \item Developed and maintained HSMP's website to allow students to view information \\about their school.\\
 \end{itemize}}
-\cventry{November 2010 - June 2011}{Graphic Designer, Video Editor}{City Gridiron}{Brooklyn, New York}{}{
+\cventry{2010 -- 2011}{Graphic Designer, Video Editor}{City Gridiron}{Brooklyn, New York}{}{
 \begin{itemize} \itemsep3pt \parskip0pt \parsep0pt
   \item Designed the logo and graphics used in the first season of the TV program on PIX11. 
 \item Edited and organized footage for the final cut and QA before uploading to PIX11 servers.\\
 \end{itemize}}
 
-\cventry{August 2009 - January 2013}{Freelance Web Designer}{99designs.com}{}{}{
+\cventry{2009 -- 2013}{Freelance Web Designer}{99designs.com}{}{}{
 \begin{itemize} \itemsep3pt \parskip0pt \parsep0pt
   \item Worked closely with dozens of clients to finalize a conceptual design for a new or \\revamped website.
-  \item Promoted to a Platinum Designer for demonstrating the highest caliber of conceptual \\thought and technical execution in designs. 
+  \item Achieved Platinum Designer rank for demonstrating the highest caliber of conceptual \\thought and technical execution in designs. 
 \end{itemize}
 }
 
