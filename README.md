@@ -22,7 +22,7 @@ Install Latex and download the moderncv theme. Place the moderncv theme somewher
         my-resume.pdf
         /moderncv
 
-Configure your edit to use my `moderncv.cls` file for the modernc document class.
+Configure your editor to use my `moderncv.cls` file for the modernc document class.
 
 Compiling the Resume
 ====================
