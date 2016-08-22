@@ -15,7 +15,7 @@ You will need to have latex installed on your system to compile the .tex file an
 Installation
 ============
 
-Install Latex and download the moderncv theme. Place the moderncv theme somewhere Latex can find it. You can just place the folder in the same place as your .tex file as I have:
+Install Latex and download the moderncv 1.5 theme. Place the moderncv theme somewhere Latex can find it. You can just place the folder in the same place as your .tex file as I have:
 
     /my-resume
         my-resume.tex
