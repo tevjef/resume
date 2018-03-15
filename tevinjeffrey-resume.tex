@@ -11,66 +11,65 @@
 \usepackage[utf8]{inputenc}                   % replace by the encoding you are using
 
 \usepackage[margin=.5in]{geometry}
+\renewcommand*{\namefont}{\fontsize{42}{50}\mdseries\upshape}
 
 \name{Tevin}{Jeffrey}
 \address{Omitted for web}{}
 \phone[fixed]{Omitted for web}
 \email{tev.jeffrey@gmail.com} 
+\social[linkedin]{tevinjeffrey}
 \social[github]{tevjef}
 \homepage{tevinjeffrey.me}
 
 \begin{document}
-\maketitle 
-
-\section{Education}
-\cventry{2012-2016}{BA, Computer Science}{Rutgers, The State University of New Jersey}{Newark, NJ}{\mbox{Minor: Mathematics. GPA: 3.4 Gates Millennium Scholar}}{}
+\maketitle
+\vspace*{-1cm}
 \section{Skills}
-\subsection{Proficient With}
-\cvline{languages}{Java, Go, SQL, Swift, Kotlin, Shell}
-\cvline{technologies}{Android, iOS, PosgresSQL, Adobe Photoshop, Illustrator, Flash and Premiere Pro, Windows, OSX, Linux, Git, Vim}
+\cvline{languages \& technologies}{Java, Go, SQL, Swift, Gradle, Kotlin, Shell, Git, Android, Espresso, RxJava, Dagger, iOS, Kubernetes, Containers, Docker, Prometheus, Grafana, PosgresSQL, Redis, Firebase, Google Cloud Platform}
 \subsection{Have Experience With}
-\cvline{languages}{C, C++, HTML, CSS, JavaScript, Python}
-\cvline{technologies}{Final Cut Pro, Docker, InfluxDB, Grafana}
-
-\section{Side Projects}
-\cventry{July 2016}{Rutgers Course Tracker - iOS}{\newline iOS SDK, Swift 2.2, Go, Postgres, Firebase, APNs, Protobuf}{}{}
-{\begin{itemize} \itemsep3pt \parskip0pt \parsep0pt
-  \item An iOS application to view Rutgers courses and subscribe to their openings.
- \item Utilizes a backend consisting for several microservices. 
-  \item Published on the App Store: \url{http://goo.gl/4wzyS7}
-\end{itemize}}
-
-\cventry{February 2015}{Rutgers Course Tracker - Android - \href{http://git.io/vvhsv}{Github: git.io/vvhsv}}{\newline Android SDK, Dagger 1, Espresso, RxJava, JUnit, Mockito}{}{}
-{\begin{itemize} \itemsep3pt \parskip0pt \parsep0pt
-  \item An Android application to view Rutgers courses and subscribe to their openings.
-  \item Built on a MVP architectural pattern and makes thoughtful use of \textbf{RxJava},  \textbf{Dagger} and \textbf{Retrofit}.
-  \item Published on Google Play: \url{http://goo.gl/7WgkV5}
-\end{itemize}}
-
-
-\cventry{2014 -- present}{Vapor for CloudApp - Android - \href{http://git.io/vnnTA}{Github: git.io/vnnTA}}{\newline Android , Retrofit 2, Kotlin, Dagger 2, RxJava}{}{}{
-\begin{itemize}
-  \item An Android application to upload and view files to CloudApp's Amazon S3 with an emphasis on making \\files easier to share.
-  \item Rewritten to implement the lessons learned from developing Rutgers Course Tracker.
-\end{itemize}}
-
+\cvline{}{C, C++, JavaScript, Python, Node.js, Amazon Web Services, gRPC, InfluxDB}
 
 \section{Experience}
+\cventry{January 2017 -- present}{Android Engineer}{Prolific Interactive}{Brooklyn, NY}{}{
+\begin{itemize} \itemsep3pt \parskip0pt \parsep0pt
+  \item  Collaborated with Product and UX designers on design execution feasibility and translated their \\requirements into stories/tickets for front and backend teams.
+  \item Developed a MVP which saw 100K daily active users in the first week. Lead Android development \\on the product post v1.
+  \item Aided in the development of our automated testing, code analysis and auditing infrastructure. 
+  \item Created internal tools to automate our development workflows on Pivotal Tracker and BitBucket.
+\end{itemize}}
 \cventry{June -- August 2016}{Android Developer Intern}{Viacom}{New York, NY}{}{
 \begin{itemize} \itemsep3pt \parskip0pt \parsep0pt
-  \item Assisted in the development of Viacom's Android and Android TV applications including Spike, MTV, Logo TV, VH1, BET and Comedy Central\\
+  \item Assisted in the development of Viacom's Android and Android TV applications including \\Spike, MTV, Logo TV, VH1, BET and Comedy Central
 \end{itemize}}
-
-\cventry{2010 -- 2012}{Web Developer}{High School for Medical Professions (HSMP)}{Brooklyn, NY}{}{
-\begin{itemize} \itemsep3pt \parskip0pt \parsep0pt
-  \item Developed and maintained HSMP's website to allow students to view information \\about their school.\\
-\end{itemize}}
-
 \cventry{2009 -- 2013}{Freelance Web Designer}{99designs.com}{}{}{
 \begin{itemize} \itemsep3pt \parskip0pt \parsep0pt
-  \item Worked closely with dozens of clients to finalize a conceptual design for a new or \\revamped website.
+  \item Worked closely with dozens of clients to finalize a conceptual design for a new or revamped website.
   \item Achieved Platinum Designer rank for demonstrating the highest caliber of conceptual \\thought and technical execution in designs. 
 \end{itemize}
 }
+
+\section{Projects}
+\cventry{July 2016 -- present}{Rutgers Course Tracker - iOS \newline  \href{http://goo.gl/wpBtto}{Github: goo.gl/wpBtto}}{iOS SDK, Swift 3, Go, Postgres, Firebase, APNS, Protobuf}{}{}
+{\begin{itemize} \itemsep3pt \parskip0pt \parsep0pt
+  \item An iOS application to view Rutgers courses and subscribe to their openings.
+ \item Created a Go backend consisting for several microservices running on Google Kubernetes Engine. \\Instrumented and monitored with Prometheus and Grafana.
+  \item Published on the App Store: \url{http://goo.gl/4wzyS7}
+\end{itemize}}
+
+\cventry{February 2015 -- present}{Rutgers Course Tracker - Android \newline  \href{http://goo.gl/LVGis4}{Github: goo.gl/LVGis4}}{Android SDK, Dagger 2, Espresso, RxJava 2, JUnit, Mockito}{}{}
+{\begin{itemize} \itemsep3pt \parskip0pt \parsep0pt
+  \item An Android application to view Rutgers courses and subscribe to their openings.
+  \item Built on a MVP architectural pattern and makes thoughtful use of \textbf{RxJava}, \textbf{Dagger}, \textbf{Retrofit} \\and \textbf{Android Architecture Components}.
+  \item Published on Google Play: \url{http://goo.gl/7WgkV5}
+\end{itemize}}
+
+\cventry{2014 -- 2016}{Vapor for CloudApp - Android \newline \href{http://goo.gl/K9vR7K}{Github: goo.gl/K9vR7K}}{Android , Retrofit 2, Kotlin, Dagger 2, RxJava}{}{}{
+\begin{itemize}
+  \item An Android application to view and upload files to CloudApp's Amazon S3 buckets with an \\emphasis on making files easier to share.
+  \item Rewritten to implement the lessons learned from developing Rutgers Course Tracker.
+\end{itemize}}
+
+\section{Education}
+\cventry{2012-2016}{BA, Computer Science}{Rutgers, The State University of New Jersey}{Newark, NJ}{\mbox{Minor: Mathematics. GPA: 3.4 Gates Millennium Scholar}}{}
 
 \end{document}
